@@ -7,3 +7,8 @@ body{
     background-position: bottom center;
     background-attachment: fixed;
 }
+
+.nav-link, .navbar-brand{
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
