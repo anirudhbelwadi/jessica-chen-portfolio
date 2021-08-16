@@ -12,3 +12,9 @@ body{
     font-weight: 600 !important;
     font-size: 20px !important;
 }
+@media screen and (max-width: 380px){
+    .profile_image{
+        width: 90% !important;
+        height: auto !important;
+    }
+}
