@@ -7,14 +7,22 @@ body{
     background-position: bottom center;
     background-attachment: fixed;
 }
-
-.nav-link, .navbar-brand{
-    font-weight: 600 !important;
-    font-size: 20px !important;
-}
 @media screen and (max-width: 380px){
     .profile_image{
         width: 90% !important;
         height: auto !important;
     }
+}
+.home_buttons{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border: 1px solid black;
+    transition: 0.2s;
+}
+.home_buttons:hover{
+    color: white;
+    background-color: black;
+    transition: 0.4s;
 }
