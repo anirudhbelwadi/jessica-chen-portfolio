@@ -36,7 +36,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Manual Stylesheet -->
-    <link href="./assets/stylesheets/work.css" rel="stylesheet">
+    <link href="./assets/stylesheets/bettapavilion.css" rel="stylesheet">
 </head>
 
 <body>
@@ -60,6 +60,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="./about.html">About Me</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./work.html">Work</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -71,33 +74,50 @@
 
     <main class="container">
         <div class="row justify-content-center">
-            <div class="col">
-                <h1>My work</h1>
+            <div class="col-12">
+                <h1>Betta Pavilion</h1>
                 <hr>
             </div>
-            <div class="row">
-                <h3 class="my-3">
-                    <strong>
-                        Architecture
-                    </strong>
-                </h3>
-                <div class="col-lg-3 col-md-6 mb-5">
-                    <a href="./bettapavilion.html">
-                        <img src="./assets/images/projects/architecture/betta_pavilion/betta_pavilion.jpg"
-                            class="w-100 mb-3" alt="">
-                    </a>
-                    <a href="./bettapavilion.html" class="h4 project_name">
-                        Betta pavilion
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-5">
-                    <a href="./convocation.html">
-                        <img src="./assets/images/projects/architecture/convocation/convocation.png" class="w-100 mb-3"
-                            alt="">
-                    </a>
-                    <a href="./convocation.html" class="h4 project_name">
-                        Convocation
-                    </a>
+            <div class="col-12 mb-5">
+                <div id="betta_pavilion_carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                    <div class="carousel-indicators" style="bottom: -60px;">
+                        <button type="button" data-bs-target="#betta_pavilion_carousel" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#betta_pavilion_carousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#betta_pavilion_carousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#betta_pavilion_carousel" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/projects/architecture/betta_pavilion/betta pavilion_page-01.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/projects/architecture/betta_pavilion/betta pavilion_page-02.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/projects/architecture/betta_pavilion/betta pavilion_page-03.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/projects/architecture/betta_pavilion/betta pavilion_page-04.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#betta_pavilion_carousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#betta_pavilion_carousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -148,7 +168,7 @@
 
 
     <!-- Manual Script -->
-    <script src="./assets/scripts/work.js"></script>
+    <script src="./assets/scripts/bettapavilion.js"></script>
 </body>
 
 </html>
